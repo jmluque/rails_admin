@@ -9,20 +9,3 @@
 
   body{ background-color: $linkColor; }
 */
-body.rails_admin {
-  .delete_member_link,
-  .new_collection_link,
-  [data-mode="faq_category"],
-  [data-mode="faq_question"],
-  [data-mode="product_message"],
-  [data-mode="review"],
-  [data-mode="shipment_category"],
-  [data-mode="shipment_question"],
-  [data-mode="slide"],
-  [data-mode="static_page"],
-  [data-mode="testimonial"],
-  [data-mode="faq_question"],
-  body > div.container-fluid > div > div.col-sm-9.col-sm-offset-3.col-md-10.col-md-offset-2 > div > div > ul > li.dropdown.open {
-  display: none;
-  }
-}
